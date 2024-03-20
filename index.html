@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crickbuzz</title>
+    <link rel="stylesheet" href="landingPage.css" />
+    <link rel="stylesheet" href="navbar.css" />    
+    <link rel="stylesheet" href="footer.css"/>
+    <link
+      rel="shortcut icon"
+      href="https://www.cricbuzz.com/images/cb_favicon.ico"
+      
+    />
+    <link rel="stylesheet" media="all" href="assets/css/your-icons.css" />
+    <link
+      rel="shortcut icon"
+      href="https://www.cricbuzz.com/images/cb_favicon.ico"
+      
+    />
+    <script
+      src="https://kit.fontawesome.com/eba04dea05.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div id="landingPageheader">
+        <header id="top">
+          <a href="index.html"><img
+            id="logo"
+            width="100px"
+            src="https://th.bing.com/th/id/OIP.FiF3AMZfCkn8EOYxfXSrGgHaEL?w=282&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            alt="logo"
+          /></a>
+          <div id="navbar">
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">Live Scores</a></button>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">Schedule</a></button>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">Archives</a></button>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="">News <i class="fa-solid fa-caret-down"></i></a>
+              </button>
+              <div class="dropdown_value">
+                <a href="#">All Stories</a>
+                <a href="#">Cricbuzz Plus</a>
+                <a href="#">Latest News</a>
+                <a href="#">Topics</a>
+                <a href="#">Spotlight</a>
+                <a href="#">Opinions</a>
+                <a href="#">Specials</a>
+                <a href="#">Stats & Analysis</a>
+                <a href="#">Interviews</a>
+                <a href="#">Live Blogs</a>
+                <a href="#">Harsha Bhogle</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="">Series <i class="fa-solid fa-caret-down"></i></a>
+              </button>
+              <div class="dropdown_value">
+                <a href="#">India tour of WestIndies, 2022</a>
+                <a href="#">Pakistan tour of Sri Lanka, 2022</a>
+                <a href="#">South Africa tour of England, 2022</a>
+                <a href="#">Bangladesh tour of Zimbabwe, 2022</a>
+                <a href="#">New Zealand tour of Scotland, 2022</a>
+                <a href="#">Tamil Nadu Premier League 2022</a>
+                <a href="#">County Championship Division One 2022</a>
+                <a href="#">Commonwealth Games Womens Cricket Competition 2022</a>
+                <a href="#">All Series</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="">Teams <i class="fa-solid fa-caret-down"></i></a>
+              </button>
+              <div class="dropdown_val">
+                <div class="team">
+                  <h4>TEST TEAMS</h4>
+                  <a href="#">India</a>
+                  <a href="#">Ireland</a>
+                  <a href="#">Pakistan</a>
+                  <a href="#">Australia</a>
+                  <a href="#">Sri Lanka</a>
+                  <a href="#">Bangladesh</a>
+                  <a href="#">England</a>
+                  <a href="#">West Indies</a>
+                  <a href="#">South Africa</a>
+                  <a href="#">Zimbabwe</a>
+                  <a href="#">New Zealand</a>
+                  <a href="#">Afghanistan</a>
+                </div>
+                <div class="team">
+                  <h4>ASSOCIATE</h4>
+                  <a href="#">Italy</a>
+                  <a href="#">Botswana</a>
+                  <a href="#">Belgium</a>
+                  <a href="#">Iran</a>
+                  <a href="#">Denmark</a>
+                  <a href="#">Singapore</a>
+                  <a href="#">Namibia</a>
+                  <a href="#">Uganda</a>
+                  <a href="#">Malasiya</a>
+                  <a href="#">Nepal</a>
+                  <a href="#">Germany</a>
+                  <a href="#">Canada</a>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="">Videos <i class="fa-solid fa-caret-down"></i></a>
+              </button>
+              <div class="dropdown_value">
+                <a href="#">All Videos</a>
+                <a href="#">Categories</a>
+                <a href="#">Playlists</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="">Rankings <i class="fa-solid fa-caret-down"></i></a>
+              </button>
+              <div class="dropdown_value">
+                <a href="#">ICC Rankings - Men</a>
+                <a href="#">ICC Rankings - Women</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="">More <i class="fa-solid fa-caret-down"></i></a>
+              </button>
+              <div class="dropdown_value">
+                <a href="#">World Test Championship</a>
+                <a href="#">World Cup Super League</a>
+                <a href="#">Quiz</a>
+                <a href="#">Photos</a>
+                <a href="#">Mobile Apps</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+            <button id="cricPlusbtn">
+              <a href="index.html">Cricbuzz Plus</a>
+            </button>
+          </div>
+          <i id="search" class="fa-solid fa-magnifying-glass"></i>
+          <div id="icons">
+            <a href="login.html"><i id="profileIcon" class="fa-solid fa-user"></i></a>
+            <div id="loginStatus">
+              <a href="useraccount.html">My Account</a>
+              <a onclick="signOut()" href="index.html">Sign Out</a>
+            </div>
+          </div>
+        </header>
+        <div id="blackStrip">
+          <div>
+            <a href="#">MATCHES</a>
+            <a href="#">WI vs IND - IND Won</a>
+            <a href="#">AUSW vs PAKW - AUSW Won</a>
+          </div>
+          <button>
+            <a href="">ALL <i class="fa-solid fa-caret-down"></i></a>
+          </button>
+        </div>
+      </div>
+      
+      <div id="containerFrontPage">
+        <div id="scoresBox">
+          <div onclick="scorecard">
+            <p>Delhi</p>
+            <p>Mumbai Indian</p>
+            <span
+              ><a
+                href="scorecard1.html"
+                style="text-decoration: none; cursor: pointer" color="blue"
+                >Mumbai Indians Women won by 4 wkts</a
+              >
+            </span>
+          </div>
+          
+          <div onclick="scorecard">
+            <p>West Indies</p>
+            <p>India</p>
+            <span
+              ><a
+                href="scorecard.html"
+                style="text-decoration: none; cursor: pointer" color="blue"
+                >India Won By 7 Wkts</a
+              >
+            </span>
+          </div>
+          <div onclick="scorecard">
+            <p>West Indies</p>
+            <p>India</p>
+            <span
+              ><a
+                href="scorecard.html"
+                style="text-decoration: none; cursor: pointer" color="blue"
+                >India Won By 7 Wkts</a
+              >
+            </span>
+          </div>
+          <div onclick="scorecard">
+            <p>West Indies</p>
+            <p>India</p>
+            <span
+              ><a
+                href="scorecard.html"
+                style="text-decoration: none; cursor: pointer" color="blue"
+                >India Won By 7 Wkts</a
+              >
+            </span>
+          </div>
+          
+          <div class="slider">
+            <img
+              src="https://www.cricbuzz.com/images/view_next.png"
+              class="sliderImg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="latestNewsBox">
+          <h4 class="tealHeading">LATEST NEWS</h4>
+          <p class="newsTitle">
+            Deandra Dottin retires from international cricket
+          </p>
+          <p class="newsDate">7h ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">
+            'Rewarded for bowling in right areas' - Mosaddek after five-fer
+          </p>
+          <p class="newsDate">17h ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">
+            Nurul Hasan ruled out of ongoing tour of Zimbabwe
+          </p>
+          <p class="newsDate">17h ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">
+            Florida T20Is: CWI preparing Plan B as India, WI personnel yet to get
+            US visas
+          </p>
+          <p class="newsDate">21h ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">Nurul urges bowlers to improve at the death</p>
+          <p class="newsDate">1d ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">
+            India's Asia Cup and T20 WC squad likely to be same
+          </p>
+          <p class="newsDate">1d ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">
+            Sundar, Deepak Chahar return for Zimbabwe ODIs; Tripathi called up
+          </p>
+          <p class="newsDate">1d ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">Shpageeza Cricket League rocked by explosion</p>
+          <p class="newsDate">2d ago</p>
+          <div class="line"></div>
+          <p class="newsTitle">
+            We want to create our own brand of cricket - Nurul Hasan
+          </p>
+          <p class="newsDate">Jul 29 2023</p>
+          <div class="endLine"></div>
+  
+          <h4 class="tealHeading">LATEST PHOTOS</h4>
+          
+          
+          
+          <div class="latestPhotosLineDiv"></div>
+          <img
+            width="200px"
+            class="latestPhotosImg"
+            src="https://www.cricbuzz.com/a/img/v1/165x95/i1/c239794/west-indies-vs-india-3rd-odi.jpg"
+            alt=""
+          />
+          <p class="newsTitle">West Indies vs India, 3rd ODI</p>
+          <p class="newsDate">Wed, Jul 27 2023</p>
+          
+          
+          <div class="endLine"></div>
+  
+          <h3 class="tealHeading">SCHEDULE</h3>
+          <p class="newsTitle">West Indies vs India, 2nd T20I</p>
+          <p class="newsDate">Mon Aug 01 • 8:00 PM GMT</p>
+          <div class="line"></div>
+          <p class="newsTitle">West Indies vs India, 3rd T20I</p>
+          <p class="newsDate">Tue Aug 02 • 8:00 PM GMT</p>
+          <p class="moreMatches">More Matches..</p>
+        </div>
+  
+        <div id="thinkTankBox">
+          <p class="newthinkTankBox">THINK TANK</p>
+          <img
+            width="400px"
+            class="thinkTankImf"
+            src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239972/what-england-can-learn-from-in.jpg"
+            alt=""
+          />
+          <h2 class="thinkTankHeading">
+            What England can learn from India in white-ball cricket
+          </h2>
+          <p class="newthinkTankBox">
+            England have just endured their least successful white-ball season
+            since they started playing Twenty20 internationals. Where is it all
+            going wrong, and what tips could they pick up from India?
+          </p>
+          <div class="thinkTankLineThrough"></div>
+          <p class="newthinkTankBox">INDIA TOUR OF WEST INDIES, 2023</p>
+          <img
+            width="400px"
+            class="thinkTankImf"
+            src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239950/india-look-to-double-their-lea.jpg"
+            alt=""
+          />
+          <h2 class="thinkTankHeading">
+            India look to double their lead against sloppy West Indies
+          </h2>
+          <p class="thinkTankHeading">
+            India recorded a thumping 63-run victory in the series opener
+          </p>
+          <p class="ThinkTankBoxBlueText">
+            Problem-solver Arshdeep Singh a World Cup option for India?
+          </p>
+         
+          <div class="thinkTankLineThrough"></div>
+          <p class="newthinkTankBox">BIRMINGHAM CWG 2002</p>
+          <img
+            width="400px"
+            class="thinkTankImf"
+            src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c239954/mandhana-rana-star-in-indias.jpg"
+            alt=""
+          />
+          <h2 class="thinkTankHeading">
+            Mandhana, Rana star in India's comprehensive win
+          </h2>
+          <p class="newthinkTankBox">
+            India registered an eight wicket victory against Pakistan for their
+            first points in the Birmingham Commonwealth Games 2022
+          </p>
+          <p class="ThinkTankBoxBlueText">
+            Alana King spins a web as Australia complete demolition job
+          </p>
+          <p class="ThinkTankBoxBlueText">
+            Bowlers set up England's win over Sri Lanka
+          </p>
+          <p class="ThinkTankBoxBlueText">
+            Bates, Devine fire NZ to winning start
+          </p>
+          <p class="ThinkTankBoxBlueText">
+            Women's Cricket at CWG 2022: A ready reckoner
+          </p>
+         
+          <div class="thinkTankLineThrough"></div>
+        </div>
+  
+        <div id="featuredVideos">
+          <img
+            width="300px"
+            class="specialsDiv"
+            src="https://static.clmbtech.com/ctn/29726/images/24/9251451367c467a89a7c499ec5e13e05_1632474563480_0.webp"
+            alt=""
+          />
+          <div class="endLine"></div>
+          <h4 class="tealHeading">FEATURED VIDEOS</h4>
+          <iframe
+            class="videoSection"
+            width="320"
+            height="180"
+            src="https://www.youtube.com/embed/-xaDYA08eoY"
+            frameborder="0"
+          ></iframe>
+          <h4 class="thinkTankHeading">West Indies v India T20I: Preview</h4>
+          <p class="newsDate">2d ago</p>
+          <iframe
+            class="videoSection"
+            width="320"
+            height="180"
+            src="https://www.youtube.com/embed/R3mLQ1493Ns"
+            frameborder="0"
+          ></iframe>
+          <h4 class="thinkTankHeading">
+            Captain Rohit Sharma knows how to unlock Karthik's potential: Parthiv
+            Patel
+          </h4>
+          <p class="newsDate">2d ago</p>
+          <iframe
+            class="videoSection"
+            width="320"
+            height="180"
+            src="https://www.youtube.com/embed/ukOVc3VliPA"
+            frameborder="0"
+          ></iframe>
+          <h4 class="thinkTankHeading">
+            Rohit & Dravid creating a free-flowingstyle of cricket for India:
+            Harsha Bhogle
+          </h4>
+          <p class="newsDate">Jan 19 2021</p>
+          <button class="moreVidsBtn">More Videos</button>
+          <div class="endLine"></div>
+  
+          <h3 class="tealHeading">SPECIALS</h3>
+          <img
+            width="300px"
+            class="specialsDiv"
+            src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c238381/india-picked-rishabh-pant-to-o.jpg"
+            alt=""
+          />
+          <h4 class="thinkTankHeading">
+            On road to T20 World Cup: Subplots for India from England series
+          </h4>
+          <p class="newsDate">
+            What the three matches against England taught India in the lead-up to
+            the T20 World Cup in Australia
+          </p>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div id="landingPagefooter">
+          <footer style="position:sticky;">
+              <div id="mainFoot">
+                  <div>
+                      <img width="100px"src="https://www.cricbuzz.com/images/cb_logo.svg" alt="logo3">
+                  </div>
+                  <div>
+                      <div class="footerTopic">
+                          <p>MOBILE SITE & APPS</p>
+                          <ul>
+                              <li>
+                                  <i class="fa-solid fa-globe"></i>
+                                  <a href="">cricbuzz.com</a>
+                              </li>
+                              <li>
+                                  <i class="fa-brands fa-android"></i>
+                                      <a href="">Android</a>
+                              </li>
+                              <li>
+                                  <i class="fa-brands fa-apple"></i>
+                                      <a href="">iOS</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="footerTopic">
+                          <p>FOLLOW US ON</p>
+                          <ul>
+                              <li>
+                                  <i class="fa-brands fa-facebook-f"></i>
+                                      <a href="">facebook</a>
+                              </li>
+                              <li>
+                                  <i class="fa-brands fa-twitter"></i>
+                                  <a href="">twitter</a>
+                              </li>
+                              <li>
+                                  <i class="fa-brands fa-youtube"></i>
+                                      <a href="">youtube</a>
+                              </li>
+                              <li>
+                                  <i class="fa-brands fa-pinterest-p"></i>
+                                      <a href="">Pinterest</a>
+                              </li>
+                              
+                          </ul>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="footerTopic">
+                          <p>COMPANY</p>
+                          <ul>
+                              <li><a href="#">Careers</a></li>
+                              <li><a href="#">Advertise</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Terms of Use</a></li>
+                              <li><a href="#">Cricbuzz TV Ads</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <p id="bottomline">© 2024 Cricbuzz.com, All rights reserved | The Times of India | Vivek Kumar</p>
+          </footer>
+      </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+}
+#landingPagefooter{
+    max-width: 980px;
+    margin:10px auto;
+}
+
+footer{
+    background-color: #4a4a4a;
+    width:100%;
+    position: sticky;
+    left:0;
+    bottom: 0;
+}
+#mainFoot{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#mainFoot>div>img{
+    padding:10px;
+    padding-top: 40px;
+}
+.footerTopic{
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
+   
+}
+.footerTopic p{
+    font-size: 16px;
+}
+.footerTopic ul{
+    list-style-type: none;
+    font-weight:lighter;
+    margin: 0;
+    padding: 0;
+}
+.footerTopic ul li{
+    padding-bottom: 10px;
+}
+.footerTopic ul li a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color:white;
+}
+.footerTopic i{
+    padding: 10px 10px 10px 0px;
+}
+#bottomline{
+    color: white;
+    text-align: center;
+}
+
